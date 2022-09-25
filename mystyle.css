@@ -1,0 +1,166 @@
+@charset "utf-8";
+/* CSS Document */
+
+#header {
+	width:800px;
+	height:150px;
+	background-color:#9F5E5F;
+	margin-left:auto;
+	margin-right:auto;
+	padding:0px;
+	border-radius:5px;
+	}
+#navigation {
+	width:800px;
+	height:50px;
+	background-color:#000000;
+	margin-left:auto;
+	margin-right:auto;
+	padding:0px;
+	color:#E9FB68;
+	border-radius:5px;
+	}
+#content {
+	width:800px;
+	height:450px;
+	margin-left:auto;
+	margin-right:auto;
+	padding:0px;
+	border-radius:5px;
+	}
+#left {
+	width:250px;
+	height:450px;
+	float:left;
+	border-radius:5px;
+	}
+#lefttop {
+	width:250px;
+	height:225px;
+	background-color:#009900;
+	margin-left:auto;
+	margin-right:auto;
+	float:left;
+	padding:0px;
+	border-radius:5px;
+	}
+#leftbottom{
+	width:250px;
+	height:225px;
+	background-color:#C90E7D;
+	margin-left:auto;
+	margin-right:auto;
+	float:left;
+	padding:0px;
+	border-radius:5px;
+	}	
+#right {
+	width:550px;
+	height:450px;
+	background-color:#C4BBBB;
+	float:right;
+	margin-left:auto;
+	margin-right:auto;
+	padding:0px;
+	border-radius:5px;
+	}
+#footer {
+	width:800px;
+	height:50px;
+	background-color:#000000;
+	margin-left:auto;
+	margin-right:auto;
+	color:#C8EAF6;
+	padding:0px;
+	border-radius:5px;
+	}
+	
+	/* Tambahan Menu */
+#navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#000000;
+}
+#navigation li {
+  float: left;
+}
+#navigation li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+#navigation li a:hover {
+  background-color: #111;
+}
+
+/* Tambahan Tabel */
+#tbl {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+#tbl td, #tbl th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+#tbl tr:nth-child(even){background-color: #f2f2f2;}
+#tbl tr:hover {background-color: #ddd;}
+#tbl th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+/* Tambahan Input */
+input[type=text] {
+  width: 80%;
+  padding: 2px 2px;
+  margin: 2px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=password] {
+  width: 80%;
+  padding: 2px 2px;
+  margin: 2px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+select {
+  width: 80%;
+  padding: 2px 2px;
+  margin: 2px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 80%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 4px 4px;
+  margin: 2px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
